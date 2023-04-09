@@ -18,7 +18,7 @@ public class AmazonSearchResultLocators {
 	
 	//checkbox mobile phone covers
 	
-	@FindBy(xpath="//i[@class='a-icon a-icon-checkbox']")
+	@FindBy(xpath="//span[contains(text(),'OtterBox')]")
 	public WebElement btnOttorBox ;
 	
 	
